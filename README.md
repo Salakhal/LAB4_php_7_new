@@ -29,10 +29,76 @@ Ce projet est une application mini-CRUD structurée en **architecture multicouch
 ├── 📄 index.php     
 └── 📄 racine.php
 ```
-<img width="1846" height="854" alt="image" src="https://github.com/user-attachments/assets/a723de77-1521-426a-a22c-05499e0d2de1" />
+
+## 🛠️ Installation
+
+### 1. Prérequis
+- Serveur local : XAMPP, WAMP ou Laragon
+- PHP 7.4 ou supérieur
+- MySQL
+
+---
+
+### 2. Base de données
+
+Créez une base de données nommée `school1` et exécutez le script SQL suivant :
+
+```sql
+CREATE DATABASE IF NOT EXISTS school1;
+USE school1;
+
+CREATE TABLE IF NOT EXISTS Etudiant (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nom VARCHAR(60) NOT NULL,
+  prenom VARCHAR(60) NOT NULL,
+  ville VARCHAR(60) NOT NULL,
+  sexe VARCHAR(10) NOT NULL
+);
+```
+## 📡 Web Services (API)
+Les services web sont conçus pour être consommés par des clients externes comme une application Android.
+
+### 🔵 Charger les étudiants
+
+-`URL` : ws/loadEtudiant.php
+
+-`Méthode` : POST
+
+-`Réponse `: Un tableau JSON contenant tous les étudiants.
+
+
+### Test des Web Services (Postman) 
+<img width="1127" height="738" alt="image" src="https://github.com/user-attachments/assets/dcbade73-853b-48ec-9a40-43423a8a4d85" />
+
+ ### 🟢 Créer un étudiant
+-`URL` : ws/createEtudiant.php
+
+-`Méthode` : POST
+
+-`Paramètres` : nom, prenom, ville, sexe
+
+-`Réponse ` : {"success": true, "message": "Etudiant inséré"}.
+
+### Test des Web Services (Postman)
 
 <img width="846" height="648" alt="image" src="https://github.com/user-attachments/assets/91f497b0-f0f9-49f0-890d-a2f31d1d9b92" />
 
-<img width="1127" height="738" alt="image" src="https://github.com/user-attachments/assets/dcbade73-853b-48ec-9a40-43423a8a4d85" />
+## 💻 Technologies utilisées
+-`Backend` : PHP 7+ (Programmation Orientée Objet).
+
+-`Base de données `: MySQL avec accès sécurisé via PDO.
+
+-`Frontend` : HTML5 / CSS3 (ou Bootstrap).
+
+-`Échange de données `: Format JSON.
+
+##  Aperçus du projet (Screenshots)
+
+
+<img width="1857" height="853" alt="image" src="https://github.com/user-attachments/assets/e8bf5d2d-7da4-44de-b883-16a96a215e19" />
+
+
+
+
 
 
