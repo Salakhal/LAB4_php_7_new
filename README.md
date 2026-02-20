@@ -29,3 +29,10 @@ Ce projet est une application mini-CRUD structurée en **architecture multicouch
 ├── 📄 index.php     
 └── 📄 racine.php
 ```
+<img width="1846" height="854" alt="image" src="https://github.com/user-attachments/assets/a723de77-1521-426a-a22c-05499e0d2de1" />
+
+<img width="846" height="648" alt="image" src="https://github.com/user-attachments/assets/91f497b0-f0f9-49f0-890d-a2f31d1d9b92" />
+
+<img width="1127" height="738" alt="image" src="https://github.com/user-attachments/assets/dcbade73-853b-48ec-9a40-43423a8a4d85" />
+
+
