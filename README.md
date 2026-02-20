@@ -1,4 +1,4 @@
-# 🎓 Gestion Étudiant - PHP (POO + DAO + Web Services)
+# LAB 4 : PHP (POO + DAO + Web Services) : Gestion Etudiant (CRUD + JSON)
 
 Ce projet est une application mini-CRUD structurée en **architecture multicouche** (N-Tier) utilisant PHP 7+. Il permet de gérer des étudiants via une interface Web classique et expose également des **Web Services JSON** compatibles avec des applications mobiles (Android/Volley).
 
