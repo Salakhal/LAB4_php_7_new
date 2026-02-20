@@ -98,7 +98,19 @@ Les services web sont conçus pour être consommés par des clients externes com
 <img width="1857" height="853" alt="image" src="https://github.com/user-attachments/assets/e8bf5d2d-7da4-44de-b883-16a96a215e19" />
 
 
+## 👤 Auteur
 
+* **École Normale Supérieure de Marrakech**
+  
+* **Réalisé par :** SALMA LAKHAL
+  
+* **Filière  :** CLE_INFO_S5
+  
+* **Année universitaire :** 2025/2026
+  
+* **Encadré par :** Pr. Mohamed LACHGAR
+
+* **Cours :**  Ingénierie Logicielle Web avec PHP 7 : Architecture Multicouche et Accès aux Données Sécurisé
 
 
 
